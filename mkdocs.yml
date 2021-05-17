@@ -2,7 +2,7 @@
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: Foam-mkdocs-template
+site_name: space environment notes
 theme:
   name: material
   #  favicon: attachment/portrait.png
@@ -43,10 +43,3 @@ plugins:
   - search
   - roamlinks 
     #- autolinks 
-  - exclude:
-      glob:
-        - "*.tmp"
-        - "*.pdf"
-        - "*.gz"
-      regex:
-        - '.*\.(tmp|bin|tar)$'

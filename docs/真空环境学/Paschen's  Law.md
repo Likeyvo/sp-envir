@@ -1,0 +1,30 @@
+
+alias:
+keywords:
+
+---
+- [Paschen's law - Wikiwand]
+
+    - **Paschen's law** is an equation that gives the [breakdown voltage], that is, the [voltage] necessary to start a discharge or [electric arc], between two electrodes in a gas as a function of pressure and gap length.It is named after [Friedrich Paschen] who discovered it empirically in 1889.
+- **Physical mechanism**
+	- The [mean free path] of a molecule in a gas is the average distance between its collision with other molecules. This is inversely proportional to the pressure of the gas, given constant temperature. In air at STP the mean free path of molecules is about 96 nm. Since electrons are much smaller, their average distance between colliding with molecules is about 5.6 times longer, or about 0.5 μm. This is a substantial fraction of the 7.5 μm spacing between the electrodes for minimal arc voltage. If the electron is in an electric field of 43 MV/m, it will be accelerated and acquire 21.5 [eV] of energy in 0.5 μm of travel in the direction of the field. The first [ionization energy] needed to dislodge an electron from [nitrogen] molecule is about 15.6 eV. The accelerated electron will acquire more than enough energy to ionize a nitrogen molecule. This liberated electron will in turn be accelerated, which will lead to another collision. A [chain reaction] then leads to [avalanche breakdown], and an arc takes place from the cascade of released electrons.
+	- More collisions will take place in the electron path between the electrodes in a higher-pressure gas. When the pressure–gap product $pd$ is high, an electron will collide with many different gas molecules as it travels from the cathode to the anode. Each of the collisions randomizes the electron direction, so the electron is not always being accelerated by the [electric field]
+ 	- —sometimes it travels back towards the cathode and is decelerated by the field.
+ 	- Collisions reduce the electron's energy and make it more difficult for it to ionize a molecule. Energy losses from a greater number of collisions require larger voltages for the electrons to accumulate sufficient energy to ionize many gas molecules, which is required to produce an [avalanche breakdown].
+ 	- On the left side of the Paschen minimum, the $pd$ product is small. The electron mean free path can become long compared to the gap between the electrodes. In this case, the electrons might gain lots of energy, but have fewer ionizing collisions. A greater voltage is therefore required to assure ionization of enough gas molecules to start an avalanche.
+
+
+
+[Paschen's law - Wikiwand]: https://www.wikiwand.com/en/Paschen%27s_law#/overview
+[breakdown voltage]: https://www.wikiwand.com/en/Breakdown_voltage
+[voltage]: https://www.wikiwand.com/en/Voltage
+[electric arc]: https://www.wikiwand.com/en/Electric_arc
+[Friedrich Paschen]: https://www.wikiwand.com/en/Friedrich_Paschen
+[mean free path]: https://www.wikiwand.com/en/Mean_free_path
+[eV]: https://www.wikiwand.com/en/Electronvolt
+[ionization energy]: https://www.wikiwand.com/en/Ionization_energy
+[nitrogen]: https://www.wikiwand.com/en/Nitrogen
+[chain reaction]: https://www.wikiwand.com/en/Chain_reaction
+[avalanche breakdown]: https://www.wikiwand.com/en/Townsend_discharge
+[electric field]: https://www.wikiwand.com/en/Electric_field
+[avalanche breakdown]: https://www.wikiwand.com/en/Electron_avalanche
