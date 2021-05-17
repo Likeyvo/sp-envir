@@ -1,17 +1,7 @@
-# Foam-mkdocs-template
-Welcome to Foam-mkdocs-template! [[#support roamlinks]]!
+# 真空环境学学习笔记
 
-* How to create this website and share your foam/obsidian notes? See: [[tutorial]]
-* [foam](https://github.com/foambubble/foam)
+​	noted by LiKe
 
-
-## Support roamlinks
-
-| origin                  | convert                             |
-| ----------------------- | ----------------------------------- |
-| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
-| `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
-| `![[image.png]]`           | `![image.png](../image/imag.png)`      |
-| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`|
-| `[[Git Flow#Heading]]`     |  `[Git Flow](../software/git_flow.md#heading)` |
+- 只需要阅读 **带有数字编号** 的文档即可
+- 公式在网站上无法编译，必要时查看上课的课件
 
