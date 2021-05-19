@@ -1,0 +1,1061 @@
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>400.等离子体环境及其效应 - space environment notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#等离子体-环境基本特征" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="space environment notes" class="md-header-nav__button md-logo" aria-label="space environment notes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            space environment notes
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              400.等离子体环境及其效应
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
+        真空环境学学习笔记
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../100.introdution/" class="md-tabs__link md-tabs__link--active">
+          真空环境学
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="space environment notes" class="md-nav__button md-logo" aria-label="space environment notes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    space environment notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="真空环境学学习笔记" class="md-nav__link">
+      真空环境学学习笔记
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      真空环境学
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="真空环境学" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        真空环境学
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../100.introdution/" title="100.introdution" class="md-nav__link">
+      100.introdution
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200.%E7%9C%9F%E7%A9%BA%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%A4%AA%E9%98%B3%E5%85%89%E8%BE%90%E5%B0%84/" title="200.真空环境与太阳光辐射" class="md-nav__link">
+      200.真空环境与太阳光辐射
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../300.%E4%B8%AD%E6%80%A7%E5%A4%A7%E6%B0%94%E7%8E%AF%E5%A2%83/" title="300.中性大气环境" class="md-nav__link">
+      300.中性大气环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        400.等离子体环境及其效应
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="400.等离子体环境及其效应" class="md-nav__link md-nav__link--active">
+      400.等离子体环境及其效应
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#等离子体-环境基本特征" class="md-nav__link">
+    等离子体 环境基本特征
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#等离子体环境效应--空间环境效应" class="md-nav__link">
+    等离子体环境效应 &lt;&lt; 空间环境效应
+  </a>
+  
+    <nav class="md-nav" aria-label="等离子体环境效应 &lt;&lt; 空间环境效应">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#电离层电波传播" class="md-nav__link">
+    电离层电波传播
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#电离层与辐射带模型" class="md-nav__link">
+    电离层与辐射带模型
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#课题汇报-z3航天器再入时黑障的产生原理及其影响" class="md-nav__link">
+    课题汇报→ z3.航天器再入时黑障的产生原理及其影响
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../500.%E7%A9%BA%E9%97%B4%E8%BE%90%E5%B0%84%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%85%B6%E6%95%88%E5%BA%94/" title="500.空间辐射环境及其效应" class="md-nav__link">
+      500.空间辐射环境及其效应
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../600.%E5%9C%B0%E7%90%83%E7%A3%81%E5%9C%BA%E4%B8%8E%E5%BC%95%E5%8A%9B%E7%8E%AF%E5%A2%83/" title="600.地球磁场与引力环境" class="md-nav__link">
+      600.地球磁场与引力环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../700.%E7%A9%BA%E9%97%B4%E7%A2%8E%E7%89%87%E7%8E%AF%E5%A2%83/" title="700.空间碎片环境" class="md-nav__link">
+      700.空间碎片环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../800.%E5%A4%8D%E4%B9%A0/" title="800.复习" class="md-nav__link">
+      800.复习
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../LEO/" title="LEO" class="md-nav__link">
+      LEO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Paschen%27s%20%20Law/" title="Paschen's Law" class="md-nav__link">
+      Paschen's  Law
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Untitled/" title="Untitled" class="md-nav__link">
+      Untitled
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z1.%E4%BA%BA%E4%BD%93%E6%9A%B4%E9%9C%B2%E5%9C%A8%E7%9C%9F%E7%A9%BA%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88%EF%BC%9F/" title="Z1.人体暴露在真空环境中会发生什么？" class="md-nav__link">
+      Z1.人体暴露在真空环境中会发生什么？
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z2.%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%B4%E8%BF%91%E7%A9%BA%E9%97%B4%E9%A3%9E%E8%A1%8C%E5%99%A8%E5%BE%88%E9%9A%BE%E5%A4%A7%E9%87%8F%E9%83%A8%E7%BD%B2/" title="Z2.为什么临近空间飞行器很难大量部署" class="md-nav__link">
+      Z2.为什么临近空间飞行器很难大量部署
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z3.%E8%88%AA%E5%A4%A9%E5%99%A8%E5%86%8D%E5%85%A5%E6%97%B6%E9%BB%91%E9%9A%9C%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%BD%B1%E5%93%8D/" title="Z3.航天器再入时黑障的产生原理及其影响" class="md-nav__link">
+      Z3.航天器再入时黑障的产生原理及其影响
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z4.%E7%A9%BA%E9%97%B4%E8%BE%90%E5%B0%84%E5%AF%B9%E8%88%AA%E5%A4%A9%E5%91%98%E5%BD%B1%E5%93%8D%E5%8F%8A%E5%BA%94%E5%AF%B9%E6%96%B9%E6%B3%95/" title="Z4.空间辐射对航天员影响及应对方法" class="md-nav__link">
+      Z4.空间辐射对航天员影响及应对方法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z5.%E5%BE%AE%E9%87%8D%E5%8A%9B%E7%8E%AF%E5%A2%83/" title="Z5.微重力环境" class="md-nav__link">
+      Z5.微重力环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z6.%E7%A9%BA%E9%97%B4%E7%A2%8E%E7%89%87%E6%8E%A2%E6%B5%8B/" title="Z6.空间碎片探测" class="md-nav__link">
+      Z6.空间碎片探测
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B8%AD%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/" title="中地球轨道" class="md-nav__link">
+      中地球轨道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B8%AD%E6%80%A7%E5%A4%A7%E6%B0%94/" title="中性大气" class="md-nav__link">
+      中性大气
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B8%B4%E8%BF%91%E7%A9%BA%E9%97%B4/" title="临近空间" class="md-nav__link">
+      临近空间
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B9%A0%E9%A2%98/" title="习题" class="md-nav__link">
+      习题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%BD%8E%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/" title="低地球轨道" class="md-nav__link">
+      低地球轨道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%8E%9F%E5%AD%90%E6%B0%A7/" title="原子氧" class="md-nav__link">
+      原子氧
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%9C%B0%E7%90%83%E7%A3%81%E5%9C%BA%E5%92%8C%E5%BC%95%E5%8A%9B/" title="地球磁场和引力" class="md-nav__link">
+      地球磁场和引力
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%80%9D%E8%80%83%E9%A2%98/" title="思考题" class="md-nav__link">
+      思考题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%9E%81%E5%85%89/" title="极光" class="md-nav__link">
+      极光
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%B0%94%E4%BD%93%E6%94%BE%E7%94%B5/" title="气体放电" class="md-nav__link">
+      气体放电
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%94%B5%E7%A6%BB%E5%B1%82/" title="电离层" class="md-nav__link">
+      电离层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%9C%9F%E7%A9%BA/" title="真空" class="md-nav__link">
+      真空
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%A9%BA%E9%97%B4%E7%8E%AF%E5%A2%83%E6%95%88%E5%BA%94/" title="空间环境效应" class="md-nav__link">
+      空间环境效应
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%A9%BA%E9%97%B4%E7%8E%AF%E5%A2%83%E7%BB%84%E6%88%90%E4%BB%A5%E5%8F%8A%E5%AF%B9%E8%88%AA%E5%A4%A9%E5%99%A8%E7%9A%84%E5%BD%B1%E5%93%8D/" title="空间环境组成以及对航天器的影响" class="md-nav__link">
+      空间环境组成以及对航天器的影响
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%A9%BA%E9%97%B4%E7%A2%8E%E7%89%87/" title="空间碎片" class="md-nav__link">
+      空间碎片
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93/" title="等离子体" class="md-nav__link">
+      等离子体
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%B4%AB%E5%A4%96%E8%BE%90%E5%B0%84/" title="紫外辐射" class="md-nav__link">
+      紫外辐射
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E8%87%AD%E6%B0%A7%E5%B1%82/" title="臭氧层" class="md-nav__link">
+      臭氧层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E9%AB%98%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/" title="高地球轨道" class="md-nav__link">
+      高地球轨道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E9%AB%98%E8%83%BD%E7%B2%92%E5%AD%90%E8%BE%90%E5%B0%84/" title="高能粒子辐射" class="md-nav__link">
+      高能粒子辐射
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#等离子体-环境基本特征" class="md-nav__link">
+    等离子体 环境基本特征
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#等离子体环境效应--空间环境效应" class="md-nav__link">
+    等离子体环境效应 &lt;&lt; 空间环境效应
+  </a>
+  
+    <nav class="md-nav" aria-label="等离子体环境效应 &lt;&lt; 空间环境效应">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#电离层电波传播" class="md-nav__link">
+    电离层电波传播
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#电离层与辐射带模型" class="md-nav__link">
+    电离层与辐射带模型
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#课题汇报-z3航天器再入时黑障的产生原理及其影响" class="md-nav__link">
+    课题汇报→ z3.航天器再入时黑障的产生原理及其影响
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                  <h1>400.等离子体环境及其效应</h1>
+                
+                <hr />
+<h4 id="等离子体-环境基本特征"><a href="../%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93/">等离子体</a> 环境基本特征<a class="headerlink" href="#等离子体-环境基本特征" title="Permanent link">#</a></h4>
+<ul>
+<li>什么是等离子体？</li>
+<li>太阳系空间等离子体存在位置<ul>
+<li>太阳内部和大气层</li>
+<li>日冕和太阳风 </li>
+<li>日球层 </li>
+<li>地球磁层与电离层 </li>
+<li>行星际磁层 </li>
+<li>地球弓激波 </li>
+<li>彗星尾部</li>
+</ul>
+</li>
+<li>等离子体适用什么理论来描述？#思考题<ul>
+<li><img alt="Pasted image 20210325151939.png" src="../../attach/Pasted%20image%2020210325151939.png" /></li>
+<li>单粒子运动论<ul>
+<li>研究带电粒子在电磁场中的运动</li>
+</ul>
+</li>
+<li>磁流体<br />
+    -<img alt="Pasted image 20210322103106.png" src="../../attach/Pasted%20image%2020210322103106.png" /></li>
+<li>动理论<ul>
+<li>研究带电粒子的位置和速度统计分布函数在电磁场作用下的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>相关理论<ul>
+<li>Maxwell Equations</li>
+<li>电场力与电荷守恒定律</li>
+<li>电磁场的洛伦兹变换 Lorentz Transformation</li>
+<li>电磁感应方程 <ul>
+<li><img alt="Pasted image 20210325152150.png" src="../../attach/Pasted%20image%2020210325152150.png" /></li>
+</ul>
+</li>
+<li>磁扩散</li>
+<li>磁重联</li>
+<li>磁流体力学理论</li>
+<li>等离子体波<ul>
+<li>满足两个条件<ul>
+<li>波动导致的等离子体粒子运动幅度超过热运动幅度</li>
+<li>遵循等离子体力学方程</li>
+</ul>
+</li>
+<li>波粒作用<ul>
+<li>回旋共振</li>
+<li>朗道共振</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>等离子中的电场</li>
+<li></li>
+</ul>
+</li>
+<li>空间等离子体的复杂性<ul>
+<li>磁场结构高度不规则 </li>
+<li>等离子体的多种来源 </li>
+<li>等离子体速度分布不同于热运动分布 </li>
+<li>空间与时间上多尺度 </li>
+<li>边界层的运动变化 </li>
+<li>波动与湍流 </li>
+<li>高能粒子普遍存在</li>
+</ul>
+</li>
+<li>分类<ul>
+<li><a href="../%E7%94%B5%E7%A6%BB%E5%B1%82/">电离层</a>等离子体<ul>
+<li><a href="../%E7%94%B5%E7%A6%BB%E5%B1%82/#分层结构">电离层#分层结构</a> </li>
+</ul>
+</li>
+<li>辐射带等离子体<ul>
+<li>地球等离子体运动</li>
+</ul>
+</li>
+<li>太阳风等离子体<ul>
+<li>当前的科学问题</li>
+<li>与太阳探测的关系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>等离子体特征总结</li>
+</ul>
+<hr />
+<h4 id="等离子体环境效应--空间环境效应">等离子体环境效应 &lt;&lt; <a href="../%E7%A9%BA%E9%97%B4%E7%8E%AF%E5%A2%83%E6%95%88%E5%BA%94/">空间环境效应</a><a class="headerlink" href="#等离子体环境效应--空间环境效应" title="Permanent link">#</a></h4>
+<h5 id="电离层电波传播">电离层电波传播<a class="headerlink" href="#电离层电波传播" title="Permanent link">#</a></h5>
+<ul>
+<li>相速度和群速度<ul>
+<li>相速：等相位面传播速度</li>
+<li>群速：能量传播速度</li>
+</ul>
+</li>
+<li>电波在色散媒质和非色散媒质中的传播不同</li>
+<li>临界频率<ul>
+<li>分析方法：将电离层进行分层，微元分析，然后积分<ul>
+<li><img alt="Pasted image 20210325181730.png" src="../../attach/Pasted%20image%2020210325181730.png" /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>电离层时延<ul>
+<li>总电子含量 <span><span class="MathJax_Preview">TEC</span><script type="math/tex">TEC</script></span></li>
+<li>时间延迟 <span><span class="MathJax_Preview">\Delta t_g ~= \frac{40.31}{cf^2}TEC</span><script type="math/tex">\Delta t_g ~= \frac{40.31}{cf^2}TEC</script></span></li>
+<li>距离误差 <span><span class="MathJax_Preview">\Delta r ~=c \Delta t_g=\frac{40.31}{f^2}TEC</span><script type="math/tex">\Delta r ~=c \Delta t_g=\frac{40.31}{f^2}TEC</script></span></li>
+<li><img alt="Pasted image 20210325182600.png" src="../../attach/Pasted%20image%2020210325182600.png" /></li>
+</ul>
+</li>
+<li>电离层相位前移<ul>
+<li>相位变化<span><span class="MathJax_Preview">\Delta \phi =f\Delta t_g =-\frac{40.31}{cf}TEC</span><script type="math/tex">\Delta \phi =f\Delta t_g =-\frac{40.31}{cf}TEC</script></span></li>
+<li><img alt="Pasted image 20210325182610.png" src="../../attach/Pasted%20image%2020210325182610.png" /></li>
+</ul>
+</li>
+<li>多普勒频移 <ul>
+<li><span><span class="MathJax_Preview">\Delta f ~=-\frac{40.31}{cf}\frac{d}{dt}TEC</span><script type="math/tex">\Delta f ~=-\frac{40.31}{cf}\frac{d}{dt}TEC</script></span></li>
+</ul>
+</li>
+<li>相关问题<ul>
+<li><img alt="Pasted image 20210325182630.png" src="../../attach/Pasted%20image%2020210325182630.png" /> #问题 </li>
+<li><img alt="Pasted image 20210325182636.png" src="../../attach/Pasted%20image%2020210325182636.png" /> #问题 <ul>
+<li><img alt="Pasted image 20210516161354.png" src="../../attach/Pasted%20image%2020210516161354.png" /> </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>##### 表面充电效应<br />
+ - 电子和粒子对材料表面的作用<br />
+    - 移位<br />
+    - 溅射<br />
+    - 沉积<br />
+    - 二次电子发射<br />
+    - 激发电磁波<br />
+- 机制：<img alt="Pasted image 20210325182903.png" src="../../attach/Pasted%20image%2020210325182903.png" /><br />
+- 电流确定<br />
+    - <img alt="Pasted image 20210325114425.png" src="../../attach/Pasted%20image%2020210325114425.png" /><br />
+- LEO等离子环境 <a href="../%E4%BD%8E%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/">低地球轨道</a><br />
+    - 特点 <br />
+        - 德拜半径很小<br />
+        - ve&gt;vs&gt;vi (电子速度&gt;飞行器速度&gt;离子速度)<br />
+        - 将暴露在尾流效应 <br />
+        - 电子撞击→积累负电荷→表面形成负电压（不穿越两极的几伏特，穿过的更高）<br />
+    - 计算<br />
+        - <img alt="Pasted image 20210329103415.png" src="../../attach/Pasted%20image%2020210329103415.png" /> <br />
+    - <img alt="Pasted image 20210516170644.png" src="../../attach/Pasted%20image%2020210516170644.png" /><br />
+- GEO等离子体环境 <a href="../%E9%AB%98%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/">高地球轨道</a><br />
+    - 特点<br />
+        - 等离子温度很高(10^7K),密度小<br />
+        - ve≥vi&gt;vs(质子和电子的速度远大于航天器的运行速度)<br />
+        - 形成几千伏的负电压<br />
+    - 计算<br />
+            - <img alt="Pasted image 20210329104604.png" src="../../attach/Pasted%20image%2020210329104604.png" /><br />
+        - <img alt="Pasted image 20210329104620.png" src="../../attach/Pasted%20image%2020210329104620.png" /></p>
+<div class="codehilite"><pre><span></span><code>---
+</code></pre></div>
+
+<h4 id="电离层与辐射带模型">电离层与辐射带模型<a class="headerlink" href="#电离层与辐射带模型" title="Permanent link">#</a></h4>
+<ol>
+<li>电离层模型 IRI</li>
+<li>AE9/AP9</li>
+<li>SPIS模型<br />
+<img alt="Pasted image 20210329105327.png" src="../../attach/Pasted%20image%2020210329105327.png" /></li>
+</ol>
+<hr />
+<h4 id="课题汇报-z3航天器再入时黑障的产生原理及其影响">课题汇报→ <a href="../z3.%E8%88%AA%E5%A4%A9%E5%99%A8%E5%86%8D%E5%85%A5%E6%97%B6%E9%BB%91%E9%9A%9C%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%BD%B1%E5%93%8D/">z3.航天器再入时黑障的产生原理及其影响</a><a class="headerlink" href="#课题汇报-z3航天器再入时黑障的产生原理及其影响" title="Permanent link">#</a></h4>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../300.%E4%B8%AD%E6%80%A7%E5%A4%A7%E6%B0%94%E7%8E%AF%E5%A2%83/" title="300.中性大气环境" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                300.中性大气环境
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../500.%E7%A9%BA%E9%97%B4%E8%BE%90%E5%B0%84%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%85%B6%E6%95%88%E5%BA%94/" title="500.空间辐射环境及其效应" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                500.空间辐射环境及其效应
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

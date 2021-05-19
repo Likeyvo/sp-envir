@@ -1,0 +1,1064 @@
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>200.真空环境与太阳光辐射 - space environment notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1真空环境" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="space environment notes" class="md-header-nav__button md-logo" aria-label="space environment notes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            space environment notes
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              200.真空环境与太阳光辐射
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
+        真空环境学学习笔记
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../100.introdution/" class="md-tabs__link md-tabs__link--active">
+          真空环境学
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="space environment notes" class="md-nav__button md-logo" aria-label="space environment notes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    space environment notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="真空环境学学习笔记" class="md-nav__link">
+      真空环境学学习笔记
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      真空环境学
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="真空环境学" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        真空环境学
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../100.introdution/" title="100.introdution" class="md-nav__link">
+      100.introdution
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        200.真空环境与太阳光辐射
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="200.真空环境与太阳光辐射" class="md-nav__link md-nav__link--active">
+      200.真空环境与太阳光辐射
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1真空环境" class="md-nav__link">
+    1.真空环境
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-真空效应与实验--空间环境效应" class="md-nav__link">
+    2. 真空效应与实验 &lt;&lt; 空间环境效应
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 真空效应与实验 &lt;&lt; 空间环境效应">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#压力差效应" class="md-nav__link">
+    压力差效应
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#真空放电效应-低气压放电效应" class="md-nav__link">
+    真空放电效应-低气压放电效应
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#真空出气与污染效应" class="md-nav__link">
+    真空出气与污染效应
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#太阳光辐射及效应" class="md-nav__link">
+    太阳光辐射及效应
+  </a>
+  
+    <nav class="md-nav" aria-label="太阳光辐射及效应">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#汇报内容第一组-z1人体暴露在真空环境中会发生什么" class="md-nav__link">
+    汇报内容→第一组 z1.人体暴露在真空环境中会发生什么？
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../300.%E4%B8%AD%E6%80%A7%E5%A4%A7%E6%B0%94%E7%8E%AF%E5%A2%83/" title="300.中性大气环境" class="md-nav__link">
+      300.中性大气环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../400.%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%85%B6%E6%95%88%E5%BA%94/" title="400.等离子体环境及其效应" class="md-nav__link">
+      400.等离子体环境及其效应
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../500.%E7%A9%BA%E9%97%B4%E8%BE%90%E5%B0%84%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%85%B6%E6%95%88%E5%BA%94/" title="500.空间辐射环境及其效应" class="md-nav__link">
+      500.空间辐射环境及其效应
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../600.%E5%9C%B0%E7%90%83%E7%A3%81%E5%9C%BA%E4%B8%8E%E5%BC%95%E5%8A%9B%E7%8E%AF%E5%A2%83/" title="600.地球磁场与引力环境" class="md-nav__link">
+      600.地球磁场与引力环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../700.%E7%A9%BA%E9%97%B4%E7%A2%8E%E7%89%87%E7%8E%AF%E5%A2%83/" title="700.空间碎片环境" class="md-nav__link">
+      700.空间碎片环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../800.%E5%A4%8D%E4%B9%A0/" title="800.复习" class="md-nav__link">
+      800.复习
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../LEO/" title="LEO" class="md-nav__link">
+      LEO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Paschen%27s%20%20Law/" title="Paschen's Law" class="md-nav__link">
+      Paschen's  Law
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Untitled/" title="Untitled" class="md-nav__link">
+      Untitled
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z1.%E4%BA%BA%E4%BD%93%E6%9A%B4%E9%9C%B2%E5%9C%A8%E7%9C%9F%E7%A9%BA%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88%EF%BC%9F/" title="Z1.人体暴露在真空环境中会发生什么？" class="md-nav__link">
+      Z1.人体暴露在真空环境中会发生什么？
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z2.%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%B4%E8%BF%91%E7%A9%BA%E9%97%B4%E9%A3%9E%E8%A1%8C%E5%99%A8%E5%BE%88%E9%9A%BE%E5%A4%A7%E9%87%8F%E9%83%A8%E7%BD%B2/" title="Z2.为什么临近空间飞行器很难大量部署" class="md-nav__link">
+      Z2.为什么临近空间飞行器很难大量部署
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z3.%E8%88%AA%E5%A4%A9%E5%99%A8%E5%86%8D%E5%85%A5%E6%97%B6%E9%BB%91%E9%9A%9C%E7%9A%84%E4%BA%A7%E7%94%9F%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%BD%B1%E5%93%8D/" title="Z3.航天器再入时黑障的产生原理及其影响" class="md-nav__link">
+      Z3.航天器再入时黑障的产生原理及其影响
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z4.%E7%A9%BA%E9%97%B4%E8%BE%90%E5%B0%84%E5%AF%B9%E8%88%AA%E5%A4%A9%E5%91%98%E5%BD%B1%E5%93%8D%E5%8F%8A%E5%BA%94%E5%AF%B9%E6%96%B9%E6%B3%95/" title="Z4.空间辐射对航天员影响及应对方法" class="md-nav__link">
+      Z4.空间辐射对航天员影响及应对方法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z5.%E5%BE%AE%E9%87%8D%E5%8A%9B%E7%8E%AF%E5%A2%83/" title="Z5.微重力环境" class="md-nav__link">
+      Z5.微重力环境
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../z6.%E7%A9%BA%E9%97%B4%E7%A2%8E%E7%89%87%E6%8E%A2%E6%B5%8B/" title="Z6.空间碎片探测" class="md-nav__link">
+      Z6.空间碎片探测
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B8%AD%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/" title="中地球轨道" class="md-nav__link">
+      中地球轨道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B8%AD%E6%80%A7%E5%A4%A7%E6%B0%94/" title="中性大气" class="md-nav__link">
+      中性大气
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B8%B4%E8%BF%91%E7%A9%BA%E9%97%B4/" title="临近空间" class="md-nav__link">
+      临近空间
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%B9%A0%E9%A2%98/" title="习题" class="md-nav__link">
+      习题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%BD%8E%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/" title="低地球轨道" class="md-nav__link">
+      低地球轨道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%8E%9F%E5%AD%90%E6%B0%A7/" title="原子氧" class="md-nav__link">
+      原子氧
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E5%9C%B0%E7%90%83%E7%A3%81%E5%9C%BA%E5%92%8C%E5%BC%95%E5%8A%9B/" title="地球磁场和引力" class="md-nav__link">
+      地球磁场和引力
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%80%9D%E8%80%83%E9%A2%98/" title="思考题" class="md-nav__link">
+      思考题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%9E%81%E5%85%89/" title="极光" class="md-nav__link">
+      极光
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%B0%94%E4%BD%93%E6%94%BE%E7%94%B5/" title="气体放电" class="md-nav__link">
+      气体放电
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%94%B5%E7%A6%BB%E5%B1%82/" title="电离层" class="md-nav__link">
+      电离层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%9C%9F%E7%A9%BA/" title="真空" class="md-nav__link">
+      真空
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%A9%BA%E9%97%B4%E7%8E%AF%E5%A2%83%E6%95%88%E5%BA%94/" title="空间环境效应" class="md-nav__link">
+      空间环境效应
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%A9%BA%E9%97%B4%E7%8E%AF%E5%A2%83%E7%BB%84%E6%88%90%E4%BB%A5%E5%8F%8A%E5%AF%B9%E8%88%AA%E5%A4%A9%E5%99%A8%E7%9A%84%E5%BD%B1%E5%93%8D/" title="空间环境组成以及对航天器的影响" class="md-nav__link">
+      空间环境组成以及对航天器的影响
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%A9%BA%E9%97%B4%E7%A2%8E%E7%89%87/" title="空间碎片" class="md-nav__link">
+      空间碎片
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93/" title="等离子体" class="md-nav__link">
+      等离子体
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E7%B4%AB%E5%A4%96%E8%BE%90%E5%B0%84/" title="紫外辐射" class="md-nav__link">
+      紫外辐射
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E8%87%AD%E6%B0%A7%E5%B1%82/" title="臭氧层" class="md-nav__link">
+      臭氧层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E9%AB%98%E5%9C%B0%E7%90%83%E8%BD%A8%E9%81%93/" title="高地球轨道" class="md-nav__link">
+      高地球轨道
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E9%AB%98%E8%83%BD%E7%B2%92%E5%AD%90%E8%BE%90%E5%B0%84/" title="高能粒子辐射" class="md-nav__link">
+      高能粒子辐射
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1真空环境" class="md-nav__link">
+    1.真空环境
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-真空效应与实验--空间环境效应" class="md-nav__link">
+    2. 真空效应与实验 &lt;&lt; 空间环境效应
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 真空效应与实验 &lt;&lt; 空间环境效应">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#压力差效应" class="md-nav__link">
+    压力差效应
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#真空放电效应-低气压放电效应" class="md-nav__link">
+    真空放电效应-低气压放电效应
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#真空出气与污染效应" class="md-nav__link">
+    真空出气与污染效应
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#太阳光辐射及效应" class="md-nav__link">
+    太阳光辐射及效应
+  </a>
+  
+    <nav class="md-nav" aria-label="太阳光辐射及效应">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#汇报内容第一组-z1人体暴露在真空环境中会发生什么" class="md-nav__link">
+    汇报内容→第一组 z1.人体暴露在真空环境中会发生什么？
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                  <h1>200.真空环境与太阳光辐射</h1>
+                
+                <hr />
+<h3 id="1真空环境">1.真空环境<a class="headerlink" href="#1真空环境" title="Permanent link">#</a></h3>
+<ul>
+<li><strong><a href="../%E7%9C%9F%E7%A9%BA/">真空</a>基本概念</strong></li>
+<li>附：大气标高<ul>
+<li><span><span class="MathJax_Preview">\frac{dP}{P}=-\frac{mg}{kT}dh</span><script type="math/tex">\frac{dP}{P}=-\frac{mg}{kT}dh</script></span></li>
+<li><span><span class="MathJax_Preview">P(h)=P_0exp(\frac{h_0-h}{H})</span><script type="math/tex">P(h)=P_0exp(\frac{h_0-h}{H})</script></span></li>
+<li><span><span class="MathJax_Preview">H=\frac{kT}{mg}</span><script type="math/tex">H=\frac{kT}{mg}</script></span></li>
+<li>h0处压强为P0，H为标高</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="2-真空效应与实验--空间环境效应">2. 真空效应与实验 &lt;&lt; <a href="../%E7%A9%BA%E9%97%B4%E7%8E%AF%E5%A2%83%E6%95%88%E5%BA%94/">空间环境效应</a><a class="headerlink" href="#2-真空效应与实验--空间环境效应" title="Permanent link">#</a></h3>
+<ul>
+<li>真空环境效应：指与真空相关的特殊物理现象→造成航天器材料或部件的损伤</li>
+<li>分类<ul>
+<li>压力差效应</li>
+<li>真空放电效应</li>
+<li>真空出气和污染</li>
+</ul>
+</li>
+<li><img alt="Pasted image 20210308114005.png#pin" src="../../attach/Pasted%20image%2020210308114005.png#pin" /></li>
+</ul>
+<h4 id="压力差效应">压力差效应<a class="headerlink" href="#压力差效应" title="Permanent link">#</a></h4>
+<ul>
+<li>真空黏着与冷焊(cold ~)</li>
+<li>气体泄漏率 <ul>
+<li>气体碰壁数 #物理</li>
+<li>单位时间、单位面积  <span><span class="MathJax_Preview">D=\frac{n\bar{v}}{4}</span><script type="math/tex">D=\frac{n\bar{v}}{4}</script></span><ul>
+<li><img alt="Pasted image 20210308110432.png" src="../../attach/Pasted%20image%2020210308110432.png" /> #问题 </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="真空放电效应-低气压放电效应">真空放电效应-低气压放电效应<a class="headerlink" href="#真空放电效应-低气压放电效应" title="Permanent link">#</a></h4>
+<ul>
+<li><a href="../%E6%B0%94%E4%BD%93%E6%94%BE%E7%94%B5/">气体放电</a><ul>
+<li>实质：气体电离在正负极之间形成通路</li>
+<li>分类：(按照电流的大小)<ul>
+<li>汤生放电：Townsend discharge<ul>
+<li>即电子雪崩理论</li>
+</ul>
+</li>
+<li>辉光放电：Glow discharge</li>
+<li>弧光放电：Arc discharge</li>
+</ul>
+</li>
+<li>帕型定律 <a href="../Paschen%27s%20%20Law/">Paschen's  Law</a><ul>
+<li><img alt="Pasted image 20210513194804.png" src="../../attach/Pasted%20image%2020210513194804.png" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="真空出气与污染效应">真空出气与污染效应<a class="headerlink" href="#真空出气与污染效应" title="Permanent link">#</a></h4>
+<ul>
+<li>材料出气率的检测</li>
+<li>污染效应→视角因子<ul>
+<li><img alt="Pasted image 20210311213017.png" src="../../attach/Pasted%20image%2020210311213017.png" /></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="太阳光辐射及效应">太阳光辐射及效应<a class="headerlink" href="#太阳光辐射及效应" title="Permanent link">#</a></h3>
+<ul>
+<li>太阳光辐射基本特征<ul>
+<li><img alt="Pasted image 20210513200308.png" src="../../attach/Pasted%20image%2020210513200308.png" /></li>
+<li>持续的可见光与红外辐射</li>
+<li>等效黑体温度为5770K</li>
+<li>不规则连续的紫外和X射线辐射</li>
+<li><mark>在1AU附近平均辐照能量为1366W/m2</mark>,也就是下文所谓的光通量S</li>
+</ul>
+</li>
+<li>热传递方式<ul>
+<li>Conduction</li>
+<li>Convection</li>
+<li>Radiaton</li>
+</ul>
+</li>
+<li>辐射传热<ul>
+<li>真空无法进行气体对流传热，只能通过热传导和辐射来为自身降温</li>
+<li>主要热源来自太阳 <blockquote>
+<p><span><span class="MathJax_Preview"><span><span class="MathJax_Preview">Q_{in}=\alpha_sA_nS</span><script type="math/tex">Q_{in}=\alpha_sA_nS</script></span></span><script type="math/tex"><span><span class="MathJax_Preview">Q_{in}=\alpha_sA_nS</span><script type="math/tex">Q_{in}=\alpha_sA_nS</script></span></script></span> <br />
+式中<span><span class="MathJax_Preview">\alpha_s</span><script type="math/tex">\alpha_s</script></span>为物体太阳能吸收率,<span><span class="MathJax_Preview">A_n</span><script type="math/tex">A_n</script></span>为航天器垂直于太阳光方向面积,S为航天器轨道上单位面积光通量 #问题 </p>
+</blockquote>
+</li>
+<li>对外辐射<blockquote>
+<p><span><span class="MathJax_Preview"><span><span class="MathJax_Preview">Q_{out}=\varepsilon A_{total}\sigma T^4</span><script type="math/tex">Q_{out}=\varepsilon A_{total}\sigma T^4</script></span></span><script type="math/tex"><span><span class="MathJax_Preview">Q_{out}=\varepsilon A_{total}\sigma T^4</span><script type="math/tex">Q_{out}=\varepsilon A_{total}\sigma T^4</script></span></script></span> <br />
+   式中<span><span class="MathJax_Preview">\varepsilon</span><script type="math/tex">\varepsilon</script></span>为物体的辐射率 <span><span class="MathJax_Preview">A_{total}</span><script type="math/tex">A_{total}</script></span>为物体总表面积  <span><span class="MathJax_Preview">T</span><script type="math/tex">T</script></span>为物体的温度 ,<span><span class="MathJax_Preview">\sigma</span><script type="math/tex">\sigma</script></span>为玻尔兹曼常数</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>平衡温度<ul>
+<li>Qin=Qout<br />
+    &gt;  <span><span class="MathJax_Preview"><span><span class="MathJax_Preview">T_{s / c}=\left(\frac{\alpha_{s}}{\varepsilon}\right)^{1 / 4}\left(\frac{S A_{n}}{\sigma A_{t o t}}\right)^{1 / 4}</span><script type="math/tex">T_{s / c}=\left(\frac{\alpha_{s}}{\varepsilon}\right)^{1 / 4}\left(\frac{S A_{n}}{\sigma A_{t o t}}\right)^{1 / 4}</script></span></span><script type="math/tex"><span><span class="MathJax_Preview">T_{s / c}=\left(\frac{\alpha_{s}}{\varepsilon}\right)^{1 / 4}\left(\frac{S A_{n}}{\sigma A_{t o t}}\right)^{1 / 4}</span><script type="math/tex">T_{s / c}=\left(\frac{\alpha_{s}}{\varepsilon}\right)^{1 / 4}\left(\frac{S A_{n}}{\sigma A_{t o t}}\right)^{1 / 4}</script></span></script></span></li>
+</ul>
+</li>
+<li>紫外辐射<ul>
+<li><img alt="Pasted image 20210311203943.png" src="../../attach/Pasted%20image%2020210311203943.png" /></li>
+<li>紫外光谱一般又可分为UVA、UVB和 UVC3 类</li>
+<li>只有波长大于 290 nm 的紫外线辐射(UVA和UVB)才能到达地球表面</li>
+<li>未穿透的紫外线被大气层吸收，从面在 10～50 km 高度产生了<a href="../%E8%87%AD%E6%B0%A7%E5%B1%82/">臭氧层</a></li>
+</ul>
+</li>
+<li>透光率和吸收率<ul>
+<li>光的吸收 #物理</li>
+<li><img alt="Pasted image 20210311204004.png" src="../../attach/Pasted%20image%2020210311204004.png" /> </li>
+<li>
+<div>
+<div class="MathJax_Preview">I(x)=I(0) e^{-\frac{x}{\mu}} </div>
+<script type="math/tex; mode=display">I(x)=I(0) e^{-\frac{x}{\mu}} </script>
+</div>
+</li>
+<li>透光率为 <span><span class="MathJax_Preview">\tau(x)=\frac{I(x)}{I(0)}</span><script type="math/tex">\tau(x)=\frac{I(x)}{I(0)}</script></span>,光谱吸收率为<span><span class="MathJax_Preview">A(x)=lg\frac{I(0)}{I(x)}=-lg \tau (x)</span><script type="math/tex">A(x)=lg\frac{I(0)}{I(x)}=-lg \tau (x)</script></span></li>
+<li><img alt="Pasted image 20210311204055.png" src="../../attach/Pasted%20image%2020210311204055.png" /></li>
+</ul>
+</li>
+<li>太阳光压<ul>
+<li><img alt="Pasted image 20210311204135.png" src="../../attach/Pasted%20image%2020210311204135.png" /> </li>
+<li>辐照光密度P</li>
+<li><img alt="Pasted image 20210311204145.png" src="../../attach/Pasted%20image%2020210311204145.png" /> #问题 </li>
+</ul>
+</li>
+</ul>
+<h5 id="汇报内容第一组-z1人体暴露在真空环境中会发生什么">汇报内容→第一组 <a href="../z1.%E4%BA%BA%E4%BD%93%E6%9A%B4%E9%9C%B2%E5%9C%A8%E7%9C%9F%E7%A9%BA%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88%EF%BC%9F/">z1.人体暴露在真空环境中会发生什么？</a><a class="headerlink" href="#汇报内容第一组-z1人体暴露在真空环境中会发生什么" title="Permanent link">#</a></h5>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../100.introdution/" title="100.introdution" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                100.introdution
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../300.%E4%B8%AD%E6%80%A7%E5%A4%A7%E6%B0%94%E7%8E%AF%E5%A2%83/" title="300.中性大气环境" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                300.中性大气环境
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
